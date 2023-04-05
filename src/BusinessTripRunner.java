@@ -41,5 +41,5 @@ public class BusinessTripRunner {
                 .limit(2).mapToInt(b -> b.getNumberOfDays()).sum();
         System.out.println(result);
     }
-
+//
 }
